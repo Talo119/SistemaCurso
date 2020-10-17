@@ -28,6 +28,8 @@ namespace Sistema.Entidades.Almacen
         [Required]
         public string estado { get; set; }
 
+        public string ordencompra { get; set; }
+
         public ICollection<DetalleIngreso> detalles { get; set; }
         public Usuario usuario { get; set; }
         public Persona persona { get; set; }
