@@ -26,9 +26,7 @@ namespace Sistema.Entidades.Almacen
         [Required]
         public decimal total { get; set; }
         [Required]
-        public string estado { get; set; }
-
-        public string ordencompra { get; set; }
+        public string estado { get; set; }               
 
         public ICollection<DetalleIngreso> detalles { get; set; }
         public Usuario usuario { get; set; }
